@@ -1,0 +1,317 @@
+*{
+    
+  
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 15px;
+
+
+}
+.nav div h1{
+  font-size: 15px;
+}
+.nav img{
+  width: 70PX;
+  HEIGHT: 70px;
+}
+
+.nav div{
+    display: flex;
+    justify-content: space-between;
+  align-items: center;
+  gap: 90px;
+  margin-left:40px;
+
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    margin-right: 35px;
+    
+    
+  gap: 30px;
+  list-style: none;
+
+}
+.nav ul li a{
+  text-decoration: none;
+    color: inherit;
+}
+
+.nav ul button{
+    width: 80px;
+    height: 29px;
+    background-color: green;
+    border-radius: 5px;
+
+}
+.banner{
+  
+  
+  width: 100%;
+  height: 500px;
+  position: RELATIVE;
+  overflow: hidden;
+}
+
+.banner img{
+  margin-top: 10px;
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  display: block;
+  object-fit: cover;
+}
+.banner .TEXT{
+  margin-top: 10px;
+  transform: translate(-50%,-50%);
+  width: 39%;
+  z-index: 10;
+  
+  top: 50%;
+  left: 30%;
+  position: relative;
+  background-color: transparent;
+
+  font-size: 31PX; 
+  line-height: 60PX;
+  font-weight: 800;
+  color: aliceblue;
+}
+
+.TEXT H2{
+  background-color: transparent;
+}
+
+.TEXT button{
+  background-color: yellow; 
+  border-radius: 9PX;
+  width: 111PX;
+  height: 33PX;
+
+}
+.TEXT P{
+  font-size: 10PX;
+}
+.info{
+  background:rgb(207, 167, 6);
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  
+  color: white;
+  text-transform: uppercase;
+}
+
+.sec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 49px;
+  text-transform: uppercase;
+  gap: 70px;
+  
+}
+.sec .aca{
+  height: 170px;
+  
+  width: 280px;
+  background: rgb(207, 167, 6);
+  box-shadow:-1px 0 0 03px rgb(9, 58, 9);
+  border-radius: 10px;
+}
+.aca h2{
+  font-size: 18px;
+  margin-top: 30px;
+ margin-left: 30px;
+}
+.aca p{
+  font-size: 10px;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+.aca button{
+  font-size: 12px;
+  margin-left: 30px;
+  margin-top: 15px;
+  background-color: transparent;
+  width: 100px;
+  height: 25px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+.sec .add{
+  height: 170px;
+  
+  width: 280px;
+  background: rgb(207, 167, 6);
+  box-shadow:-1px 0 0 03px rgb(11, 183, 157);
+  border-radius: 10px;
+}
+.add h2{
+  font-size: 18px;
+  margin-top: 30px;
+ margin-left: 30px;
+}
+.add p{
+  font-size: 10px;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+.add button{
+  font-size: 12px;
+  margin-left: 30px;
+  margin-top: 15px;
+  background-color: transparent;
+  width: 100px;
+  height: 25px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+.sec .achi{
+  height: 170px;
+  
+  width: 280px;
+  background: rgb(207, 167, 6);
+  box-shadow:-1px 0 0 03px rgb(27, 65, 180);
+  border-radius: 10px;
+}
+.achi h2{
+  font-size: 18px;
+  margin-top: 30px;
+ margin-left: 30px;
+}
+.achi p{
+  font-size: 10px;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.achi button{
+  font-size: 12px;
+  margin-left: 30px;
+  margin-top: 15px;
+  background-color: transparent;
+  width: 100px;
+  height: 25px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.mess{
+  margin-top: 100px;
+  margin-left: 350px;
+  display: flex;
+  justify-content: space-evenly;
+  
+  width: 60%;
+  gap: 100px;
+  text-transform: uppercase;
+  left: 50%;
+}
+
+.mess img{
+  width: 100%;
+  height: 350px;
+  border-radius: 20px;
+}
+.txt{
+
+  margin-top: 40px;
+  
+  
+  
+}
+.txt h1{
+  font-weight: 700;
+  font-size: 34px;
+  color: rgb(7, 153, 95);
+}
+.txt p{
+line-height: 30px;
+
+margin-top: 20px;
+  font-size: 13px;
+}
+.tx1t{
+  text-align: center;
+  width: 50%;
+  text-transform: uppercase;
+ margin-left: 25%;
+
+ margin-top: 100px;
+}
+
+.tx1t p{
+  text-align: center;
+  font-size: 10px;
+}
+.tex1t h1{
+  text-align: center;
+  
+}
+
+.mess1{
+  margin-top: 100px;
+  margin-left: 350px;
+  display: flex;
+  justify-content: space-evenly;
+  
+  width: 60%;
+  gap: 100px;
+  text-transform: uppercase;
+  left: 50%;
+}
+
+.mess1 img{
+  width: 100%;
+  height: 350px;
+  border-radius: 20px;
+}
+.txt{
+
+  margin-top: 40px;
+  
+  
+  
+}
+.txt h1{
+  font-weight: 700;
+  font-size: 34px;
+  color: rgb(7, 153, 95);
+}
+.txt p{
+line-height: 30px;
+
+margin-top: 20px;
+  font-size: 13px;
+}
+.tx1t{
+  text-align: center;
+  width: 50%;
+  text-transform: uppercase;
+ margin-left: 25%;
+
+ margin-top: 100px;
+}
+
+.tx1t p{
+  text-align: center;
+  font-size: 10px;
+}
+.tex1t h1{
+  text-align: center;
+  
+}
